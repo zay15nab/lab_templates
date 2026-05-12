@@ -1,0 +1,5 @@
+if(EXISTS "/root/lab_templates/build/array_tests[1]_tests.cmake")
+  include("/root/lab_templates/build/array_tests[1]_tests.cmake")
+else()
+  add_test(array_tests_NOT_BUILT array_tests_NOT_BUILT)
+endif()
